@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(0,0,0);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+    height: 100%;
+}
+body.lock{
+    overflow: hidden;
+}
+*,
+*::after,
+*::before
+{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+
+}
+textarea,
+button,
+input{
+    font-weight: inherit;
+    font-size: inherit;
+    color: inherit;
+    font-family: inherit;
+    cursor: pointer;
+}
+button{
+    background-color: inherit;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none; 
+    color: inherit; 
+}
+
+ul,
+ol,
+li{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+font-weight:inherit;
+font-size:inherit;
+}
+
+img{
+    vertical-align: top;
+    
+}
+#root {
+    min-height: 100%;
+    overflow: clip;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,6 @@
+{
+  "files.eol": "\n",
+  "cSpell.ignoreWords": ["radency"],
+  "prettier.configPath": "./client/prettierrc.json",
+  "prettier.prettierPath": "./client/node_modules/prettier"
+}
