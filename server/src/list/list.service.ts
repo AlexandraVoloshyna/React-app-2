@@ -76,6 +76,12 @@ export class ListService {
           id,
         },
       },
+      order: {
+        createdAt: "ASC",
+        cards: {
+          createdAt: "ASC",
+        },
+      },
       relations: { cards: true },
     });
     return lists || [];
