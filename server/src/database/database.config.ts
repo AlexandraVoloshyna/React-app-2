@@ -21,8 +21,8 @@ export class DatabaseConfigService implements TypeOrmOptionsFactory {
         type: "postgres",
         url: this.configService.get<string>("DB_URL"),
         synchronize: true,
-        entities: [__dirname + "/**/*.entity{.ts,.js}"],
-        subscribers: [__dirname + "/**/*.subscriber{.ts,.js}"],
+        entities: [Card, List, Logging, Board],
+        subscribers: [LoggingCardSubscriber, LoggingListSubscriber],
       };
     } else {
       return {
