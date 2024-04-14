@@ -7,7 +7,6 @@
 ## Configuration
 Create a `.env` file in the server directory and configure the environment variables 
 
-Change Base url in api.slice.ts file
 
 ## Usage
 
